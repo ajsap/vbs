@@ -2,6 +2,7 @@
 ' This script will ping a server for 3 times with a 5-minute wait in between.
 ' If it fails, it will re-start the PC it is running on.
 ' It needs to have Admin access on the PC.
+' Schedule this script in Windows Task Scheduler to run every 3 minutes.
 pingtimes = 0
 pingserver = "Failed"
 DBipaddress = "192.168.10.1" ' Set the server IP address
